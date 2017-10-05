@@ -1,0 +1,34 @@
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\bin\Debug\Control de Bodega.exe.config
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\bin\Debug\Control de Bodega.exe.manifest
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\bin\Debug\Control de Bodega.application
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\bin\Debug\Control de Bodega.exe
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\bin\Debug\Control de Bodega.pdb
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\bin\Debug\Control de Bodega.xml
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\bin\Debug\MySql.Data.dll
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\bin\Debug\MySql.Data.xml
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\bin\Debug\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\obj\Debug\sistema_control_bodega.pantallaprincipal_form.resources
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\obj\Debug\sistema_control_bodega.administrador_form.resources
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\obj\Debug\sistema_control_bodega.administradornuevo_form.resources
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\obj\Debug\sistema_control_bodega.msgbox_cargando_form.resources
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\obj\Debug\sistema_control_bodega.administrarcargo_form.resources
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\obj\Debug\sistema_control_bodega.nuevocargo_form.resources
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\obj\Debug\sistema_control_bodega.administrarpersonal_form.resources
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\obj\Debug\sistema_control_bodega.cambiarpassword_form.resources
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\obj\Debug\sistema_control_bodega.nuevopersonal_form.resources
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\obj\Debug\sistema_control_bodega.administrarcategoria_form.resources
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\obj\Debug\sistema_control_bodega.crearcategoria_form.resources
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\obj\Debug\sistema_control_bodega.administrarproductos_form.resources
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\obj\Debug\sistema_control_bodega.nuevoproducto_form.resources
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\obj\Debug\sistema_control_bodega.historialmovimiento_form.resources
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\obj\Debug\sistema_control_bodega.login_form.resources
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\obj\Debug\sistema_control_bodega.Resources.resources
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\obj\Debug\sistema_control_bodega.vbproj.GenerateResource.Cache
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\obj\Debug\sistema_control_bodega.vbproj.CoreCompileInputs.cache
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\obj\Debug\Control de Bodega.exe.manifest
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\obj\Debug\Control de Bodega.application
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\obj\Debug\Control de Bodega.exe
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\obj\Debug\Control de Bodega.xml
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\obj\Debug\Control de Bodega.pdb
+C:\Users\abcdin\Desktop\prueba3\sistema_control_bodega-20170904T140237Z-001\proyecto intregado 1\sistema_control_bodega\sistema_control_bodega\obj\Debug\sistema_control_bodega.vbprojResolveAssemblyReference.cache

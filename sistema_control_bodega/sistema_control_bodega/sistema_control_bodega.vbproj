@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{79B53C21-4063-4F6B-9E6E-1A044AD00B37}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>sistema_control_bodega.My.MyApplication</StartupObject>
+    <RootNamespace>sistema_control_bodega</RootNamespace>
+    <AssemblyName>Control de Bodega</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>C:\Users\Ricardo-PC\Desktop\Bodega Donatello\Bodega 4\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Control de Bodega.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Control de Bodega.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>bodega_icono.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>93FF5C74D20B21393C977C6459F13114AD2E1FDE</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>sistema_control_bodega_ClaveTemporal.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="acciones_usuario\pantalla_principal.Designer.vb">
+      <DependentUpon>pantalla_principal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="acciones_usuario\pantalla_principal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administrador\administrador.Designer.vb">
+      <DependentUpon>administrador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="administrador\administrador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administrador\administrador_nuevo.Designer.vb">
+      <DependentUpon>administrador_nuevo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="administrador\administrador_nuevo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administrador\msgbox_cargando.Designer.vb">
+      <DependentUpon>msgbox_cargando.vb</DependentUpon>
+    </Compile>
+    <Compile Include="administrador\msgbox_cargando.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administrador\personales\cargo\administrar_cargo.Designer.vb">
+      <DependentUpon>administrar_cargo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="administrador\personales\cargo\administrar_cargo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administrador\personales\cargo\nuevo_cargo.Designer.vb">
+      <DependentUpon>nuevo_cargo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="administrador\personales\cargo\nuevo_cargo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administrador\personales\personal\administrardor\administrar_personal.Designer.vb">
+      <DependentUpon>administrar_personal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="administrador\personales\personal\administrardor\administrar_personal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administrador\personales\personal\administrardor\password\cambiar_password.Designer.vb">
+      <DependentUpon>cambiar_password.vb</DependentUpon>
+    </Compile>
+    <Compile Include="administrador\personales\personal\administrardor\password\cambiar_password.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administrador\personales\personal\nuevo_personal.Designer.vb">
+      <DependentUpon>nuevo_personal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="administrador\personales\personal\nuevo_personal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administrador\productos\categoria\administrar_categoria.Designer.vb">
+      <DependentUpon>administrar_categoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="administrador\productos\categoria\administrar_categoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administrador\productos\categoria\crear_categoria.Designer.vb">
+      <DependentUpon>crear_categoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="administrador\productos\categoria\crear_categoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administrador\productos\producto\administrar_productos.Designer.vb">
+      <DependentUpon>administrar_productos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="administrador\productos\producto\administrar_productos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administrador\productos\producto\nuevo_producto.Designer.vb">
+      <DependentUpon>nuevo_producto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="administrador\productos\producto\nuevo_producto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administrador\productos\historial_movimientos.Designer.vb">
+      <DependentUpon>historial_movimientos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="administrador\productos\historial_movimientos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.vb">
+      <DependentUpon>login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modulos\conexion.vb" />
+    <Compile Include="modulos\variables_globales.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="acciones_usuario\pantalla_principal.resx">
+      <DependentUpon>pantalla_principal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="administrador\administrador.resx">
+      <DependentUpon>administrador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="administrador\administrador_nuevo.resx">
+      <DependentUpon>administrador_nuevo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="administrador\msgbox_cargando.resx">
+      <DependentUpon>msgbox_cargando.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="administrador\personales\cargo\administrar_cargo.resx">
+      <DependentUpon>administrar_cargo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="administrador\personales\cargo\nuevo_cargo.resx">
+      <DependentUpon>nuevo_cargo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="administrador\personales\personal\administrardor\administrar_personal.resx">
+      <DependentUpon>administrar_personal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="administrador\personales\personal\administrardor\password\cambiar_password.resx">
+      <DependentUpon>cambiar_password.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="administrador\personales\personal\nuevo_personal.resx">
+      <DependentUpon>nuevo_personal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="administrador\productos\categoria\administrar_categoria.resx">
+      <DependentUpon>administrar_categoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="administrador\productos\categoria\crear_categoria.resx">
+      <DependentUpon>crear_categoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="administrador\productos\producto\administrar_productos.resx">
+      <DependentUpon>administrar_productos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="administrador\productos\producto\nuevo_producto.resx">
+      <DependentUpon>nuevo_producto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="administrador\productos\historial_movimientos.resx">
+      <DependentUpon>historial_movimientos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sistema_control_bodega_ClaveTemporal.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bodega_icono.ico" />
+    <None Include="Resources\quitar.png" />
+    <None Include="Resources\salir.png" />
+    <None Include="Resources\agregar.png" />
+    <None Include="Resources\administrar.png" />
+    <None Include="Resources\agregarproducto.png" />
+    <Content Include="Resources\cargo.png" />
+    <Content Include="Resources\categoria.png" />
+    <Content Include="Resources\despachador.png" />
+    <None Include="Resources\editar.png" />
+    <None Include="Resources\editarproducto.png" />
+    <Content Include="Resources\egreso.png" />
+    <Content Include="Resources\historial.png" />
+    <Content Include="Resources\local.png" />
+    <Content Include="Resources\personales.png" />
+    <Content Include="Resources\producto.png" />
+    <None Include="Resources\ingreso.png" />
+    <None Include="Resources\orden_pedido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
